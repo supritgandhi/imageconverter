@@ -1,13 +1,15 @@
-IMAGE CONVERTER
-        This code basically converts .odg [open document graphic] to .bmp [bitmap]. 
-        .odg stores data in vector graphic form in the form of XML.
-        So, this code converts XML into human readable format i.e. this process is called XML Parsing.
-        After getting the data from the xml it is plotted into bmp format using bmp.c .
-.
-In this two files have been uploaded,
-one is parse1.c which roughly contains the code of whole project which is yet to finished completely and other is,
-bmp.c which is a part of parse1.c which  creates a bmp image window with black background which executes.
+TITLE  : IMAGE-CONVERTER (BMP)
+NAME   : GANDHI SUPRIT ATUL
+MIS ID : 111503018
+BRANCH : COMPUTER ENGINEERING
 
-Instructions :
-For compiling bmp.c simply, type : gcc bmp.c and to run ./a.out
-For compiling parse1.c, type : gcc parse1.c -I/usr/include/libxml2/libxml -L/usr/lib -lxml2 -lz -lpthread -lm
+DESCRIPTION :
+This is an image converter which converts .odg[open-document graphics] to .bmp files.
+This program uses libxml.h library which is required to parse XML documents in it as, .odg stores it data or content in the form XML.
+So far, this code only works for Geometrical shapes like a line i.e. a line segment which is either horizontal or vertical and squares and rectangles.
+BMP file is made using arrays.
+Rest of the other things like getting XML documents through zipped folder is included in code itself, User need not worry about that.
+
+NOTE : Before using this software, run the help command in order to know the guidelines of using it.
+
+I hope you find my project interesting.
